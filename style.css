@@ -5,11 +5,11 @@ body {
 
 .nav-bar {
     display: flex;
-    position: sticky;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top: 0;
+    top: 0;
     padding: 8px;
     background-color: black;
     margin-bottom: 20px;
