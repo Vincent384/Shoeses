@@ -1,3 +1,40 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.nav-bar {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    background-color: black;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+ #landing-page-image {
+    width: 600px;
+    height: 500px;
+ }
+
+ .products-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .product-image {
+    width: 200px;
+    height: 200px;
+ }
+
 .dropdown {
     border: 1px solid black;
     width: 50px;
