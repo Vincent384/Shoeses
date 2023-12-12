@@ -1,7 +1,7 @@
 
 :root {
     --green: #409748; /* Gräsgrön som används till knappar och logo */
-    --white: #f1f7f1; /* Vit bakgrundsfärg  */
+    --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
   }
 body {
     margin: 0;
