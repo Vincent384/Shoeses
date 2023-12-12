@@ -1,8 +1,16 @@
+
+:root {
+    --green: #409748; /* Gräsgrön som används till knappar och logo */
+    --white: #f1f7f1; /* Vit bakgrundsfärg  */
+  }
 body {
     margin: 0;
     padding: 0;
 }
-
+.logo {
+    width: 300px;
+    
+}
 .nav-bar {
     display: flex;
     position: fixed;
@@ -12,17 +20,22 @@ body {
     top: 0;
     padding: 8px;
     background-color: black;
+    
     margin-bottom: 20px;
 }
 
 .link-container {
     display: flex;
-    
     justify-content: space-around;
     
     width: 50%;
 }
 
+.home-button,
+.about-us-button,
+.contact-button {
+    color: var(--green);
+}
 .slideshow {
     margin-top: 5rem;
     display: flex;
@@ -39,7 +52,7 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 150px;
    
 
  }
