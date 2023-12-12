@@ -35,9 +35,37 @@ body {
 .about-us-button,
 .contact-button {
     color: var(--green);
+    
+}
+a:link {
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+}
+.search-container input {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 200px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.search-button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: var(--white);
+}
+.checkout-button {
+    color: var(--white);
 }
 .slideshow {
-    margin-top: 5rem;
+    margin-top: 20rem;
     display: flex;
     justify-content: center;
 }
