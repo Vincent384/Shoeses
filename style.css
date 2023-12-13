@@ -25,9 +25,11 @@ body {
 }
 .logo {
     width: 150px;
-    
+    transition: transform .5s;
 }
-
+.logo:hover {
+    transform: scale(1.2);
+}
 .link-container {
     display: flex;
     justify-content: space-around;
