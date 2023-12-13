@@ -122,6 +122,7 @@ a:link {
 .button-cart {
     background-color: var(--green);
     border: transparent;
+    
     color: var(--white);
 }
 .checkout {
