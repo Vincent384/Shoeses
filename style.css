@@ -6,20 +6,27 @@ body {
     margin: 0;
     padding: 0;
 }
-.logo {
-    width: 300px;
-    
-}
+
 .nav-bar {
     display: flex;
     position: fixed;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     top: 0;
-    padding: 8px;
+    padding-top: 10px;
     background-color: black;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    z-index: 1000;
+    /* gap: 20px; */
+    
+}
+.logo {
+    width: 150px;
+    
+>>>>>>> c12f1d2fb4adddb3e181b9701f3157be0a320dfb
 }
 
 .link-container {
@@ -57,13 +64,26 @@ a:link {
     justify-items: center;
     color: var(--white);
 }
+
 .checkout-button {
+    display: flex;
+    justify-content: flex-start;
     color: var(--white);
 }
+
+
 .slideshow {
-    margin-top: 20rem;
+    margin-top: 11rem;
     display: flex;
     justify-content: center;
+}
+
+.product-heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    
 }
  #landing-page-image {
     width: 600px;
@@ -95,6 +115,15 @@ a:link {
 #product8,
 #product9 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.label {
+    background-color: red;
+    width: fit-content;
+    position: absolute;
+    top: 0px;
+    right: 10px;
 }
 .dropdown {
     border: 1px solid black;
@@ -102,8 +131,26 @@ a:link {
     height: 50px;
     background-color: pink;
     position: absolute;
-    top: 20;
+    top: 20px;
 }
+
+.product-name,
+.product-description,
+.product-price {
+    margin-left: 10px;
+}
+.button-cart {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: var(--green);
+    border: transparent;
+
+    color: var(--white);
+}
+
+
+
 
 .checkout {
     cursor: pointer;
@@ -116,4 +163,32 @@ a:link {
 .dropdown-image {
     width: 50px;
     height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer p {
+    margin-top: 20px;
+}
+.fa-facebook,
+.fa-square-instagram,
+.fa-square-x-twitter {
+    
+    color: var(--green);
+    font-size: 30px;
+    margin: 10px;
+}
+
+.img-ceo,
+.img-cw1,
+.img-cw2,
+.img-cw3 {
+    width: 250px;
+    height: 300px;
 }
