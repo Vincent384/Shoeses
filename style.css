@@ -157,3 +157,11 @@ footer p {
     font-size: 30px;
     margin: 10px;
 }
+
+.img-ceo,
+.img-cw1,
+.img-cw2,
+.img-cw3 {
+    width: 250px;
+    height: 300px;
+}
