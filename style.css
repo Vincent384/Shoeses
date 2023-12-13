@@ -16,14 +16,13 @@ body {
     top: 0;
     padding-top: 10px;
     background-color: black;
-
     margin-bottom: 20px;
-
     z-index: 1000;
-    /* gap: 20px; */
+    
     
 }
 .logo {
+    cursor: pointer;
     width: 150px;
     transition: transform .5s;
 }
@@ -75,12 +74,14 @@ a:link {
     justify-content: center;
     justify-items: center;
     color: var(--white);
+    cursor: pointer;
 }
 
 .checkout-button {
     display: flex;
     justify-content: flex-start;
     color: var(--white);
+    
 }
 
 
@@ -151,13 +152,14 @@ a:link {
 .product-price {
     margin-left: 10px;
 }
+
 .button-cart {
     position: absolute;
     bottom: 0px;
     right: 0px;
     background-color: var(--green);
     border: transparent;
-
+    cursor: pointer;
     color: var(--white);
 }
 
