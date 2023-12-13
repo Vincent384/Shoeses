@@ -17,6 +17,7 @@ body {
     top: 0;
     padding-top: 10px;
     background-color: black;
+    z-index: 1000;
     /* gap: 20px; */
     
 }
@@ -110,6 +111,15 @@ a:link {
 #product8,
 #product9 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.label {
+    background-color: red;
+    width: fit-content;
+    position: absolute;
+    top: 0px;
+    right: 10px;
 }
 .dropdown {
     border: 1px solid black;
@@ -122,9 +132,13 @@ a:link {
 .button-cart {
     background-color: var(--green);
     border: transparent;
-    
+
     color: var(--white);
 }
+
+
+
+
 .checkout {
     cursor: pointer;
 }
