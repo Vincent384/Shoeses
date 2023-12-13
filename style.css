@@ -68,6 +68,8 @@ a:link {
     justify-content: flex-start;
     color: var(--white);
 }
+
+
 .slideshow {
     margin-top: 11rem;
     display: flex;
@@ -127,9 +129,18 @@ a:link {
     height: 50px;
     background-color: pink;
     position: absolute;
-    top: 20;
+    top: 20px;
+}
+
+.product-name,
+.product-description,
+.product-price {
+    margin-left: 10px;
 }
 .button-cart {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
     background-color: var(--green);
     border: transparent;
 
