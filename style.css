@@ -23,7 +23,11 @@ body {
 }
 .logo {
     width: 150px;
-    
+    transition: transform .5s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
 }
 
 .link-container {
@@ -36,8 +40,19 @@ body {
 .about-us-button,
 .contact-button {
     color: var(--green);
-    
+    transition: transform .5s;
 }
+
+.home-button:hover,
+.about-us-button:hover,
+.contact-button:hover {
+    color: var(--white);
+    transform: scale(1.5);
+     
+}
+
+
+
 a:link {
     text-decoration: none;
 }
@@ -181,6 +196,13 @@ footer p {
     color: var(--green);
     font-size: 30px;
     margin: 10px;
+    transition: transform .5s;
+}
+
+.fa-facebook:hover,
+.fa-square-instagram:hover,
+.fa-square-x-twitter:hover {
+    transform: scale(1.5);
 }
 
 .img-ceo,
