@@ -1,8 +1,7 @@
-
 :root {
     --green: #409748; /* Gräsgrön som används till knappar och logo */
     --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
-  }
+}
 body {
     margin: 0;
     padding: 0;
@@ -20,17 +19,14 @@ body {
     top: 0;
     padding: 8px;
     background-color: black;
-    
     margin-bottom: 20px;
 }
 
 .link-container {
     display: flex;
     justify-content: space-around;
-    
     width: 50%;
 }
-
 .home-button,
 .about-us-button,
 .contact-button {
