@@ -1,8 +1,7 @@
-
 :root {
     --green: #409748; /* Gräsgrön som används till knappar och logo */
     --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
-  }
+}
 body {
     margin: 0;
     padding: 0;
@@ -17,17 +16,16 @@ body {
     top: 0;
     padding-top: 10px;
     background-color: black;
+<<<<<<< HEAD
+    margin-bottom: 20px;
+=======
     z-index: 1000;
     /* gap: 20px; */
     
 }
 .logo {
     width: 150px;
-    transition: transform .5s;
-}
-
-.logo:hover {
-    transform: scale(1.2);
+    
 }
 
 .link-container {
@@ -35,7 +33,6 @@ body {
     justify-content: space-around;
     width: 50%;
 }
-
 .home-button,
 .about-us-button,
 .contact-button {
