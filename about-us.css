@@ -66,16 +66,20 @@ a:link {
 .checkout-button {
   color: white;
 }
-hr {
- color: greenyellow;
+.home-button:hover,
+.about-us-button:hover,
+.contact-button:hover {
+    transform: scale(1.5);
+     
 }
+
 /* ---------------------------------------Head title-------------------- */
 
 .head-title {
   /* border: 2px solid orange; */
   margin-left: 15vw;
   font-size: 3rem;
-  color: white;
+  color: rgb(31, 235, 34);
   position: absolute;
   top: 200px;
   z-index: 2;
@@ -102,7 +106,7 @@ hr {
   margin-left: 15vw;
   width: 50vw;
   font-size: 20px;
-  color: rgb(70, 179, 70);
+  color: white;
   
 }
 
@@ -124,28 +128,25 @@ hr {
 }
 .info-container {
   margin-left: 3vw;
-  padding-top: 30vh;
+  padding-top: 55vh;
   font-size: 20px;
-  
-}
-.desk-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5vh;
   
 }
 .img-ceo{
   width: 300px;
+  border-radius: 5px;
 }
 .img-cw1 {
   width: 200px;
+  border-radius: 5px;
 }
 .img-cw2 {
   width: 200px;
+  border-radius: 5px;
 }
 .img-cw3 {
   width: 200px;
+  border-radius: 5px;
 }
 .info-container1 {
   margin-left: 1vw;
@@ -158,12 +159,15 @@ hr {
 #footer {
   /* border: 2px solid orange; */
   margin-top: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer p {
   color: white;
 }
 footer img {
   height: auto;
-  width: 100px;
+  width: 50px;
   margin-top: 10px;
 }

@@ -61,6 +61,12 @@ a:link {
 hr {
  color: greenyellow;
 }
+.home-button:hover,
+.about-us-button:hover,
+.contact-button:hover {
+    transform: scale(1.5);
+     
+}
 /* ----------------------------------- FORM ------------------------------------------------- */
 .contact-us {
   display: grid;
@@ -90,7 +96,7 @@ hr {
   height: 70%;
   margin-top: 10px;
   padding-top: 40px;
-  box-shadow: 0 0 9px rgba(255, 255, 255, 0.77);
+  /* box-shadow: 0 0 9px rgba(255, 255, 255, 0.77); */
 }
 .input  {
   border-radius: 5px;
@@ -128,12 +134,15 @@ label {
 #footer {
   /* border: 2px solid orange; */
   margin-top: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer p {
   color: white;
 }
 footer img {
   height: auto;
-  width: 100px;
+  width: 50px;
   margin-top: 10px;
 }
