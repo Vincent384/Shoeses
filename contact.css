@@ -46,6 +46,8 @@ a:link {
   border-radius: 5px;
   border-color: transparent;
   background-color: white;
+  border: 3px solid green;
+  
 }
 .search-button{
   display: flex;
@@ -69,10 +71,6 @@ hr {
   color:  rgb(227, 233, 227);
 }
 .contact-us h1 {
-  font-size: 40px;
-}
-.contact-us h2 {
-  margin-left: 2vw;
   font-size: 45px;
   color: greenyellow;
 }
@@ -103,6 +101,7 @@ hr {
 label {
   margin-left: 20vh;
   color: white;
+  background-color:  rgb(22, 21, 21);
 }
 .text-input {
   margin-left: 20vh;
@@ -137,5 +136,4 @@ footer img {
   height: auto;
   width: 100px;
   margin-top: 10px;
-
 }
