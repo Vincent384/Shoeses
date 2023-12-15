@@ -138,7 +138,9 @@ label {
 /* ----------------------------------- FOOTER ----------------------------------------------  */
 #footer {
   /* border: 2px solid orange; */
-  margin-top: 30%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
