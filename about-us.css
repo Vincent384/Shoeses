@@ -66,6 +66,12 @@ a:link {
 .checkout-button {
   color: white;
 }
+.home-button,
+.about-us-button,
+.contact-button {
+    color: var(--green);
+    transition: transform .5s;
+}
 .home-button:hover,
 .about-us-button:hover,
 .contact-button:hover {
