@@ -8,6 +8,10 @@ body {
   min-height: 100vh;
   position: relative;
 }
+:root {
+  --green: #409748; /* Gräsgrön som används till knappar och logo */
+  --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
+}
 .nav-bar {
   display: flex;
   position: sticky;
@@ -172,10 +176,29 @@ a:link {
   justify-content: center;
 }
 footer p {
-  color: white;
+  margin-top: 20px;
+  color:var(--white);
 }
-footer img {
-  height: auto;
-  width: 50px;
-  margin-top: 10px;
+.fa-facebook,
+.fa-square-instagram,
+.fa-square-x-twitter {
+  
+  color: var(--green);
+  font-size: 30px;
+  margin: 10px;
+  transition: transform .5s;
+}
+
+.fa-facebook:hover,
+.fa-square-instagram:hover,
+.fa-square-x-twitter:hover {
+  transform: scale(1.5);
+}
+
+.img-ceo,
+.img-cw1,
+.img-cw2,
+.img-cw3 {
+  width: 250px;
+  height: 300px;
 }
