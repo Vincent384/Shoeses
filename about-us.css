@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  background: var(--background);
   min-height: 100vh;
   position: relative;
 }
 :root {
-  --green: #409748; /* Gräsgrön som används till knappar och logo */
-  --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
+  --green:  #36e747; /* Gräsgrön som används till knappar och logo */
+  --font-family: 'Georgia', serif;
+  --background: linear-gradient(to left, rgb(13, 13, 13),rgb(13, 13, 13),rgb(3, 3, 3));
 }
 .nav-bar {
   display: flex;
@@ -20,9 +21,9 @@ body {
   width: 100%;
   top: 0;
   padding-top: 10px;
-  background-color: black;
   margin-bottom: 20px;
   z-index: 1000;
+  background: var(--background);
 }
 .logo {
   cursor: pointer;
@@ -33,16 +34,17 @@ body {
   transform: scale(1.2);   
 }
 .link-container {
-  color: #409748;
+  color: var(--green);
   display: flex;
   justify-content: space-around;
   width: 50%;
+  font-size: 30px;
+  font-family: var(--font-family);
 }
 .home-button,
 .about-us-button,
 .contact-button {
     color: var(--green);
-    
 }
 a:link {
   text-decoration: none;
@@ -82,7 +84,6 @@ a:link {
 .about-us-button:hover,
 .contact-button:hover {
     transform: scale(1.5);
-     
 }
 
 /* ---------------------------------------Head title-------------------- */
@@ -95,7 +96,7 @@ a:link {
   position: absolute;
   top: 200px;
   z-index: 2;
-
+  font-family: var(--font-family);
 }
 .desk-pic-container {
   /* border: 3px solid pink; */
@@ -103,14 +104,12 @@ a:link {
   flex-direction: row-reverse;
   background: linear-gradient(to right, rgb(0, 0, 0),rgb(5, 7, 5));
   z-index: 1;
-
+  margin: 0;
 }
 .desk-pic {
   object-fit: contain;
   height: 500px
-
 } 
-
 .about-us-container {
   position: absolute;
   top:350px;
@@ -119,7 +118,7 @@ a:link {
   width: 50vw;
   font-size: 20px;
   color: white;
-  
+  font-family: var(--font-family);
 }
 
 /* -----------------------------------------The crew-------------------------- */
@@ -128,8 +127,6 @@ a:link {
   display: flex;
   justify-content: space-evenly;
   margin-top: 15vh;
-
-
 }
 .ceo-info {
   /* border: 2px solid greenyellow; */
@@ -137,15 +134,15 @@ a:link {
   margin-top: 2vh;
   display: flex;
   color: white;
+  font-family: var(--font-family);
 }
 .info-container {
   margin-left: 3vw;
-  padding-top: 55vh;
+  padding-top: 20vh;
   font-size: 20px;
-  
 }
 .img-ceo{
-  width: 300px;
+  width: 200px;
   border-radius: 5px;
 }
 .img-cw1 {
@@ -157,12 +154,13 @@ a:link {
   border-radius: 5px;
 }
 .img-cw3 {
-  width: 200px;
+  width: 300px;
   border-radius: 5px;
 }
 .info-container1 {
   margin-left: 1vw;
   color: white;
+  font-family: var(--font-family);
 }
 
 
@@ -177,24 +175,22 @@ a:link {
 }
 footer p {
   margin-top: 20px;
-  color:var(--white);
+  color: white;
+  font-size: 25px;
 }
 .fa-facebook,
 .fa-square-instagram,
 .fa-square-x-twitter {
-  
   color: var(--green);
   font-size: 30px;
   margin: 10px;
   transition: transform .5s;
 }
-
 .fa-facebook:hover,
 .fa-square-instagram:hover,
 .fa-square-x-twitter:hover {
   transform: scale(1.5);
 }
-
 .img-ceo,
 .img-cw1,
 .img-cw2,
