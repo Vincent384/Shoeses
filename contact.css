@@ -179,7 +179,7 @@ label {
   margin-bottom: 50px;
 }
 footer p {
-  margin-top: 20px;
+  margin: 20px;
   color: white;
   font-size: 25px;
   font-family: var(--font-family);

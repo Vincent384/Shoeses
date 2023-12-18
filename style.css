@@ -106,7 +106,12 @@ a:link {
     position: absolute;
     top: 160px;
     right: 10px;
-    background-color: var(--white);
+    color: var(--white);
+    font-size: 14px;
+  
+}
+.dropdown p {
+    margin-top: 2px;
 }
 
 header {
@@ -185,7 +190,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 150px;
-    
+    margin-bottom: 20px;
 
  }
 
@@ -260,7 +265,7 @@ footer {
     color: var(--white);
 }
 footer p {
-    margin-top: 20px;
+    margin: 20px;
     font-size: 25px;
     color: var(--white);
 }
