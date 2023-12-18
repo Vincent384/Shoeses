@@ -12,6 +12,7 @@ body {
   --green:  #36e747; /* Gräsgrön som används till knappar och logo */
   --font-family: 'Georgia', serif;
   --background: linear-gradient(to left, rgb(13, 13, 13),rgb(13, 13, 13),rgb(3, 3, 3));
+  --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
 }
 .nav-bar {
   display: flex;
@@ -44,8 +45,18 @@ body {
 .home-button,
 .about-us-button,
 .contact-button {
-    color: var(--green);
+  color: var(--green);
+  transition: transform .5s;
 }
+
+.home-button:hover,
+.about-us-button:hover,
+.contact-button:hover {
+    color: var(--white);
+    transform: scale(1.5);
+     
+}
+
 a:link {
   text-decoration: none;
 }
@@ -62,8 +73,8 @@ a:link {
   width: 200px;
   border-radius: 5px;
   border-color: transparent;
-  background-color: white;
-  border: 3px solid green;
+  /* background-color: white;
+  border: 3px solid green; */
 }
 .search-button{
   display: flex;
@@ -172,9 +183,10 @@ a:link {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 footer p {
-  margin-top: 20px;
+  margin: 20px;
   color: white;
   font-size: 25px;
 }

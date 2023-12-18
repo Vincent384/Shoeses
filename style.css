@@ -1,11 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+
 :root {
     --green:  #36e747; /* Gräsgrön som används till knappar och logo */
     --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
+    --backgroundBlack1: rgb(23, 22, 22);
+    --background: linear-gradient(to right, rgb(5, 5, 5),rgb(13, 13, 13),rgb(30, 31, 30));
 }
 body {
-    margin: 0;
-    padding: 0;
+    
+    background: var(--background);
 }
+
 
 .nav-bar {
     display: flex;
@@ -15,7 +25,7 @@ body {
     width: 100%;
     top: 0;
     padding-top: 10px;
-    background-color: black;
+    background: var(--background);
     margin-bottom: 20px;
     z-index: 1000;
 }
@@ -96,7 +106,16 @@ a:link {
     position: absolute;
     top: 160px;
     right: 10px;
-    background-color: var(--white);
+    color: var(--white);
+    font-size: 14px;
+  
+}
+.dropdown p {
+    margin-top: 2px;
+}
+
+header {
+    color: var(--white);
 }
 
 .slideshow { 
@@ -147,11 +166,21 @@ a:link {
     align-items: center;
     flex-direction: column;
     margin: 25px;
+    color: var(--white);
     
+}
+
+.product-heading h1 {
+    margin: 20px;
+}
+
+.product-heading p {
+    margin: 20px;
 }
  #landing-page-image {
     width: 600px;
     height: 500px;
+    
  }
 
  .products-container {
@@ -161,13 +190,14 @@ a:link {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 150px;
-   
+    margin-bottom: 20px;
 
  }
 
  .product-image {
     width: 300px;
     height: 300px;
+    
  }
 #product1,
 #product2,
@@ -180,6 +210,8 @@ a:link {
 #product9 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: relative;
+    background: var(--white);
+    
 }
 
 .label {
@@ -187,7 +219,7 @@ a:link {
     width: fit-content;
     position: absolute;
     top: 0px;
-    right: 10px;
+    right: 0px;
 }
 
 
@@ -195,6 +227,7 @@ a:link {
 .product-description,
 .product-price {
     margin-left: 10px;
+    margin: 10px;
 }
 
 .button-cart {
@@ -228,9 +261,13 @@ footer {
     margin-bottom: 50px;
 }
 
+.shipping {
+    color: var(--white);
+}
 footer p {
-    margin-top: 20px;
+    margin: 20px;
     font-size: 25px;
+    color: var(--white);
 }
 .fa-facebook,
 .fa-square-instagram,

@@ -9,21 +9,39 @@
   --background: linear-gradient(to right, rgb(5, 5, 5),rgb(13, 13, 13),rgb(30, 31, 30));
   --grey: rgb(37, 35, 35); /* form bakgrunsfärg*/
   --font-family: 'Georgia', serif; 
+<<<<<<< HEAD
   --backgroundBlack: rgb(6, 6, 6);
 
+=======
+  --backgroundBlack1: rgb(23, 22, 22);
+  --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
+>>>>>>> 1930acfa0695e8bf451d340469db3523d89889a9
 }
 body {
   background: var(--background);
 }
 .logo {
   /* border: 2px solid pink; */
+  cursor: pointer;
+  transition: transform .5s;
   width: 150px;
+}
+
+.logo:hover {
+  transform: scale(1.2);
 }
 .nav-bar {
   display: flex;
-  justify-content: space-around;
+  position: sticky;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 8px;
+  width: 100%;
+  top: 0;
+  padding-top: 10px;
+  background: var(--background);
+  margin-bottom: 20px;
+  z-index: 1000;
+
 }
 .link-container {
   color:var(--green);
@@ -37,7 +55,17 @@ body {
 .about-us-button,
 .contact-button {
     color: var(--green);
+    transition: transform .5s;
 }
+
+.home-button:hover,
+.about-us-button:hover,
+.contact-button:hover {
+    color: var(--white);
+    transform: scale(1.5);
+     
+}
+
 a:link {
   text-decoration: none;
 }
@@ -54,8 +82,8 @@ a:link {
   width: 200px;
   border-radius: 5px;
   border-color: transparent;
-  background-color: white;
-  border: 3px solid green;
+  /* background-color: white;
+  border: 3px solid green; */
 }
 .search-button{
   display: flex;
@@ -153,9 +181,10 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 footer p {
-  margin-top: 20px;
+  margin: 20px;
   color: white;
   font-size: 25px;
   font-family: var(--font-family);
