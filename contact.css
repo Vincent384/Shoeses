@@ -8,7 +8,8 @@
   --green: #36e747; /* Gräsgrön som används till knappar och logo */
   --background: linear-gradient(to right, rgb(5, 5, 5),rgb(13, 13, 13),rgb(30, 31, 30));
   --grey: rgb(37, 35, 35); /* form bakgrunsfärg*/
-  --font-family: 'Georgia', serif;
+  --font-family: 'Georgia', serif; 
+  --backgroundBlack1: rgb(23, 22, 22);
 
 }
 body {
@@ -108,6 +109,8 @@ hr {
 .input  {
   border-radius: 5px;
   width: 17vw;
+  padding: 3px;
+  font-family: var(--font-family);
 }
 label {
   margin-left: 20vh;
