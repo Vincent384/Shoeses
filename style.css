@@ -208,7 +208,8 @@ header {
 #product7,
 #product8,
 #product9 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 4px 8px 0 var(--green);
+
     position: relative;
     background: var(--white);
     
