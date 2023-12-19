@@ -9,13 +9,9 @@
   --background: linear-gradient(to right, rgb(5, 5, 5),rgb(13, 13, 13),rgb(30, 31, 30));
   --grey: rgb(37, 35, 35); /* form bakgrunsfärg*/
   --font-family: 'Georgia', serif; 
-<<<<<<< HEAD
   --backgroundBlack: rgb(6, 6, 6);
-
-=======
   --backgroundBlack1: rgb(23, 22, 22);
   --white: #f1f7f1; /* Vit bakgrundsfärg, samma vita färg som logo */
->>>>>>> 1930acfa0695e8bf451d340469db3523d89889a9
 }
 body {
   background: var(--background);
@@ -114,7 +110,7 @@ hr {
 }
 .contact-us h1 {
   font-size: 45px;
-  color: greenyellow;
+  color: rgb(255, 255, 255);
 }
 .container-flex{
   /* border: 2px solid red; */
@@ -173,14 +169,12 @@ label {
     transition: transform .5s;
 }
 /* ----------------------------------- FOOTER ----------------------------------------------  */
-#footer {
-  /* border: 2px solid orange; */
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+footer {
+  margin-top: 100px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 50px;
 }
 footer p {
